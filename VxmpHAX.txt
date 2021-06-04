@@ -1,7 +1,6 @@
 -- Script Made By Nihilize
 -- Script Refreshed By Vxn0m
 
-
 FavoriteColor = Color3.fromRGB(0, 0, 255) --(Red, Green, Blue) from 0 to 255
 
 local function getGuns()
@@ -61,7 +60,7 @@ ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
 
 Frame.Parent = ScreenGui
 Frame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Frame.BorderColor3 = FavoriteColor
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Frame.BorderSizePixel = 3
 Frame.Position = UDim2.new(0.8, 0, 0.1, 0)
 Frame.Size = UDim2.new(0, 200, 0, 300)
@@ -155,7 +154,7 @@ BeInmate.Size = UDim2.new(0, 20, 0, 32)
 BeInmate.ZIndex = 2
 BeInmate.Font = Enum.Font.SourceSans
 BeInmate.Text = ""
-BeInmate.TextColor3 Color3.fromRGB(255, 255, 255) 
+BeInmate.TextColor3 = Color3.fromRGB(255, 255, 255)
 BeInmate.TextSize = 25.000
 BeInmate.TextWrapped = true
 BeInmate.BorderMode = "Inset"
@@ -171,7 +170,7 @@ BeCriminal.Size = UDim2.new(0, 20, 0, 32)
 BeCriminal.ZIndex = 2
 BeCriminal.Font = Enum.Font.SourceSans
 BeCriminal.Text = ""
-BeCriminal.TextColor3 = Color3.fromRGB(255, 255, 255)
+BeCriminal.TextColor3 = FavoriteColor
 BeCriminal.TextSize = 25.000
 BeCriminal.TextWrapped = true
 BeCriminal.BorderMode = "Inset"
@@ -187,7 +186,7 @@ BeNeutral.Size = UDim2.new(0, 20, 0, 32)
 BeNeutral.ZIndex = 2
 BeNeutral.Font = Enum.Font.SourceSans
 BeNeutral.Text = ""
-BeNeutral.TextColor3 = Color3.fromRGB(255, 255, 255)
+BeNeutral.TextColor3 = FavoriteColor
 BeNeutral.TextSize = 25.000
 BeNeutral.TextWrapped = true
 BeNeutral.BorderMode = "Inset"
@@ -289,7 +288,7 @@ Lock.Name = "Lock"
 Lock.Parent = Frame
 Lock.AnchorPoint = Vector2.new(0.5, 0.5)
 Lock.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-Lock.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Lock.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Lock.BorderSizePixel = 2
 Lock.Position = UDim2.new(0.5, 0, 0.75999999, 0)
 Lock.Size = UDim2.new(0, 156, 0, 32)
