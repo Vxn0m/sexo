@@ -679,7 +679,7 @@ title.Parent = main
 title.BackgroundColor3 = Color3.new(0, 0, 0)
 title.Size = UDim2.new(0, 443, 0, 44)
 title.Font = Enum.Font.SourceSansBold
-title.Text = "Anti-Abusers Prison life gui Made By Jake11price"
+title.Text = "VxmpAnti"
 title.TextColor3 = Color3.new(255, 255, 255)
 title.TextSize = 13
 title.TextWrapped = true
@@ -863,12 +863,12 @@ end)
 
 infgun.Name = "infgun"
 infgun.Parent = main
-infgun.BackgroundColor3 = Color3.new(0, 0.333333, 1)
+infgun.BackgroundColor3 = Color3.new(0, 0, 0)
 infgun.Position = UDim2.new(0.738148987, 0, 0.234108955, 0)
 infgun.Size = UDim2.new(0, 106, 0, 50)
 infgun.Font = Enum.Font.SourceSansBold
 infgun.Text = "Criminal Player"
-infgun.TextColor3 = Color3.new(1, 1, 0)
+infgun.TextColor3 = Color3.new(255, 255, 255)
 infgun.TextSize = 11
 infgun.MouseButton1Down:connect(function()
 -- Made By Vxn0m
@@ -1043,12 +1043,12 @@ openmain.Position = UDim2.new(0.00822120812, 0, 0.538083494, 0)
 openmain.Size = UDim2.new(0, 107, 0, 27)
 openmain.Visible = false
 
-open.Name = "open"
+open.Name = "VxmpAnti"
 open.Parent = openmain
 open.BackgroundColor3 = Color3.new(0, 0, 0)
 open.Size = UDim2.new(0, 107, 0, 27)
 open.Font = Enum.Font.SourceSansBold
-open.Text = "OPEN"
+open.Text = "VxmpAnti"
 open.TextColor3 = Color3.new(255, 255, 255)
 open.TextScaled = true
 open.TextSize = 14
